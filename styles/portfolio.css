@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #2f71e4;
+  --secondary-color: #ffffff;
+  --tertiary-color: #dd4443;
+  --heading-font: Exo, sans-serif;
+}
+body {
+  color: var(--secondary-color);
+  font-family: var(--heading-font);
+  background-color: var(--primary-color);
+}
+
+.index-hero {
+  text-align: center;
+  margin: 50px 20px;
+}
+
+.index-hero h1 {
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+.index-hero h3 {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+
+.index-hero a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 14px;
+  color: #dcdfea;
+}
+
+.index-hero a:hover {
+  text-decoration: underline;
+}
+
+.logo-period {
+  color: var(--tertiary-color);
+}
