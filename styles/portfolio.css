@@ -10,6 +10,18 @@ body {
   background-color: var(--primary-color);
 }
 
+a {
+  transition: all 200ms ease;
+}
+
+img {
+  display: none;
+}
+
+a:hover img {
+  display: block;
+}
+
 lottie-player {
   margin: 0 auto;
 }
