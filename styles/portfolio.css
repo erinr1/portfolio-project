@@ -2,16 +2,24 @@
   --primary-color: #2f71e4;
   --secondary-color: #ffffff;
   --tertiary-color: #dd4443;
-  --heading-font: Exo, sans-serif;
+  --main-font: Exo, sans-serif;
+  --secondary-font: "Rubik Mono One", sans-serif;
 }
 body {
   color: var(--secondary-color);
-  font-family: var(--heading-font);
+  font-family: var(--main-font);
   background-color: var(--primary-color);
 }
 
 a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #dcdfea;
   transition: all 200ms ease;
+}
+
+a:hover {
+  color: var(--tertiary-color);
 }
 
 img {
@@ -20,6 +28,9 @@ img {
 
 a:hover img {
   display: block;
+  position: absolute;
+  max-width: 25%;
+  max-height: 25%;
 }
 
 lottie-player {
@@ -43,13 +54,6 @@ lottie-player {
   margin: 0 0 10px 0;
 }
 
-.index-hero a {
-  color: var(--secondary-color);
-  text-decoration: none;
-  font-size: 16px;
-  color: #dcdfea;
-}
-
 .index-hero a:hover {
   text-decoration: underline;
 }
@@ -64,7 +68,7 @@ lottie-player {
 }
 
 .legal-links {
-  font-family: "Rubik Mono One", sans-serif;
+  font-family: var(--secondary-font);
   margin-top: 100px;
 }
 
