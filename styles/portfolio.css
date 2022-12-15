@@ -73,6 +73,25 @@ lottie-player {
 }
 
 .legal-links a {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 2px;
+}
+
+@media (max-width: 450px) {
+  .index-hero h1 {
+    font-size: 34px;
+  }
+  img {
+    display: none;
+  }
+  a:hover img {
+    display: none;
+  }
+
+  .legal-links {
+    margin-top: 70px;
+  }
+  .legal-links a {
+    border: none !important;
+  }
 }
