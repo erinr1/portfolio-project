@@ -84,6 +84,10 @@ lottie-player {
 .team-images {
   border-radius: 50%;
   max-width: 75%;
+  border: solid 10px var(--tertiary-color);
+}
+
+.team-images:hover {
 }
 
 .team-info {
@@ -98,7 +102,7 @@ span.disclosures {
   .index-hero h1 {
     font-size: 34px;
   }
-  img {
+  .site-images {
     display: none;
   }
   a:hover img {
@@ -110,5 +114,8 @@ span.disclosures {
   }
   .legal-links a {
     border: none !important;
+  }
+  .member-info {
+    margin: 10px;
   }
 }
