@@ -22,7 +22,7 @@ a:hover {
   color: var(--tertiary-color);
 }
 
-img {
+.site-images {
   display: none;
 }
 
@@ -75,6 +75,23 @@ lottie-player {
 .legal-links a {
   font-size: 12px;
   line-height: 2px;
+}
+
+.about-body {
+  text-align: center;
+}
+
+.team-images {
+  border-radius: 50%;
+  max-width: 75%;
+}
+
+.team-info {
+  text-align: left;
+}
+
+span.disclosures {
+  text-decoration: underline;
 }
 
 @media (max-width: 450px) {
