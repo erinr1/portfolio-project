@@ -184,6 +184,19 @@ span.disclosures {
 .about-footer {
   color: #ffffff;
 }
+.footer-disclaimer {
+  text-align: center;
+  color: #32373b;
+  font-size: 12px;
+}
+.footer-disclaimer a {
+  color: #32373b;
+  font-size: 12px;
+}
+
+.footer-disclaimer a:hover {
+  color: var(--tertiary-color);
+}
 
 @media (max-width: 450px) {
   .index-hero h1 {
