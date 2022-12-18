@@ -10,6 +10,24 @@ body {
   font-family: var(--main-font);
   background-color: var(--primary-color);
 }
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar-brand {
+  font-size: 25px;
+  color: var(--secondary-color);
+}
+.navbar-brand:hover {
+  color: var(--secondary-color);
+}
+.navbar-text {
+  color: var(--secondary-color) !important;
+}
+.navbar-text a:hover {
+  color: var(--tertiary-color) !important;
+  text-decoration: underline;
+}
 
 a {
   text-decoration: none;
@@ -77,7 +95,7 @@ lottie-player {
   line-height: 2px;
 }
 
-.about-body {
+.about-content {
   text-align: center;
 }
 
@@ -94,9 +112,11 @@ lottie-player {
 span.disclosures {
   text-decoration: underline;
 }
+.links-body {
+  background-color: var(--secondary-color);
+}
 
 .links-page {
-  background-color: var(--secondary-color);
   color: black;
   text-align: center;
 }
