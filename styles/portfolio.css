@@ -26,7 +26,7 @@ a:hover {
   display: none;
 }
 
-a:hover img {
+a:hover .site-images {
   display: block;
   position: absolute;
   max-width: 25%;
@@ -87,15 +87,38 @@ lottie-player {
   border: solid 10px var(--tertiary-color);
 }
 
-.team-images:hover {
-}
-
 .team-info {
   text-align: left;
 }
 
 span.disclosures {
   text-decoration: underline;
+}
+
+.links-page {
+  background-color: var(--secondary-color);
+  color: black;
+  text-align: center;
+}
+
+.links-h1 {
+  color: var(--primary-color);
+  font-size: 28px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.link-button {
+  background-color: var(--primary-color) !important;
+}
+
+.link-images {
+  max-width: 30px;
+}
+
+.link-banner-image {
+  border-radius: 50%;
+  max-width: 70px;
 }
 
 @media (max-width: 450px) {
