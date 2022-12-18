@@ -112,11 +112,8 @@ lottie-player {
 span.disclosures {
   text-decoration: underline;
 }
-.links-body {
-  background-color: var(--secondary-color);
-}
-
 .links-page {
+  background-color: var(--secondary-color);
   color: black;
   text-align: center;
 }
@@ -154,6 +151,40 @@ span.disclosures {
   width: 25px;
 }
 
+.footer {
+  padding: 75px 150px;
+  background-color: var(--primary-color);
+}
+
+.footer-social-icons {
+  color: var(--secondary-color);
+  background-color: #32373b;
+  padding: 10px;
+}
+.footer-social-icons:hover {
+  background-color: var(--tertiary-color);
+}
+.lens-footer {
+  width: 37px;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+.footer-logo:hover {
+  color: #ffffff;
+}
+
+.footer-resource-links {
+  font-size: 12px;
+}
+.p-footer {
+  color: #32373b;
+}
+.about-footer {
+  color: #ffffff;
+}
+
 @media (max-width: 450px) {
   .index-hero h1 {
     font-size: 34px;
@@ -174,5 +205,10 @@ span.disclosures {
   }
   .member-info {
     margin: 10px;
+  }
+  .footer {
+    text-align: center;
+    margin: 10px;
+    padding: 0;
   }
 }
