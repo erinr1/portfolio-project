@@ -226,7 +226,11 @@ span.disclosures {
     border: none !important;
   }
   .member-info {
-    margin: 10px;
+    margin-bottom: 10px;
+  }
+
+  .team-info {
+    text-align: center;
   }
   .footer {
     text-align: center;
